@@ -52,7 +52,7 @@ npx iabc
 ### Adding routes to new benchmark project
 
 1. Go into the newly created project and create a new file at src/routes/main/first-test.ts. Fill it with the following example content:
-```
+```typescript
 export default () => ({
     id: 'example test case',
     main: {
